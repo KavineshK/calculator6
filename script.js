@@ -1,30 +1,24 @@
-function add()
-{
-var a=parseInt(document.getElementById("n1").value);
-var b=parseInt(document.getElementById("n2").value);
-var c=a+b
-document.getElementById("add").innerHTML=c;
-
+function add(){
+    var x = parseInt(document.getElementById("n1").value);
+    var y = parseInt(document.getElementById("n2").value);
+    var z = (x+y)
+    document.getElementById("add").innerHTML=z;
 }
-
-function sub()
-{
-    var a=parseInt(document.getElementById("n1").value);
-    var b=parseInt(document.getElementById("n2").value);
-    var c=a-b
-    document.getElementById("sub").innerHTML=c;
+function sub(){
+    var x = document.getElementById("m1").value;
+    var y = document.getElementById("m2").value;
+    var z = (x-y)
+    document.getElementById("sub").innerHTML=z;
 }
-function mul()
-{
-    var a=parseInt(document.getElementById("n1").value);
-    var b=parseInt(document.getElementById("n2").value);
-    var c=a*b
-    document.getElementById("mul").innerHTML=c;
+function mult(){
+    var x = document.getElementById("o1").value;
+    var y = document.getElementById("o2").value;
+    var z = (x*y)
+    document.getElementById("mult").innerHTML=z;
 }
-function div()
-{
-    var a=parseInt(document.getElementById("n1").value);
-    var b=parseInt(document.getElementById("n2").value);
-    var c=b/a
-    document.getElementById("div").innerHTML=c;
+function div(){
+    var x = document.getElementById("p1").value;
+    var y = document.getElementById("p2").value;
+    var z = (x/y)
+    document.getElementById("div").innerHTML=z;
 }
